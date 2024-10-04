@@ -1,0 +1,38 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+.slots{
+  display:flex;
+  flex-direction:row;
+}
+
+.slots div {
+  display:flex;
+  border:1px solid black;
+  height:200px;
+  width:200px;
+  font-size:15px;
+  justify-content:center;
+  align-items:center;
+}
+.everything{
+  justify-content:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:150px
+}
+p {
+  font-size: 215px;
+  /* margin-top: -25px;
+  margin-left: 15px; */
+}
+.sw {
+  font-size: 65px;
+}
